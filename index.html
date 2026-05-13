@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Слайдер -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active"><img src="images/toffifi_1.jpg" alt="Слайд 1"></div>
+            <div class="slide"><img src="images/dyxi_3.jpg" alt="Слайд 2"></div>
+            <div class="slide"><img src="images/dyxi_4.jpg" alt="Слайд 3"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">‹</button>
+        <button class="next" onclick="changeSlide(1)">›</button>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="about">
+        <h2>Обо мне</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Привет! Я — фотограф, специализирующийся на веб‑дизайне, брендинге и иллюстрациях. Моя цель — создавать красивые и функциональные решения, которые помогают бизнесу расти.</p>
+            </div>
+            <div class="about-skills">
+                <h3>Навыки</h3>
+                <ul>
+                    <li>Веб‑дизайн</li>
+                    <li>GitHub</li>
+                    <li>YouGile</li>
+                    <li>Иллюстрации</li>
+                    <li>Photoshop, Figma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея работ -->
+    <section class="gallery">
+        <h2>Мои работы</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="images/cherep.jpg" alt="Работа 1"></div>
+            <div class="gallery-item"><img src="images/dyxi_1.jpg" alt="Работа 2"></div>
+            <div class="gallery-item"><img src="images/dyxi_2.jpg" alt="Работа 3"></div>
+            <div class="gallery-item"><img src="images/nirvana.jpg" alt="Работа 4"></div>
+            <div class="gallery-item"><img src="images/toffifi.jpg" alt="Работа 5"></div>
+            <div class="gallery-item"><img src="images/sobaka_1.jpg" alt="Работа 6"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
